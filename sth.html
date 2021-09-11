@@ -1,0 +1,188 @@
+<nav class="navbar">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="left">
+          <h1>GP<span>.</span></h1>
+        </div>
+        <div class="col-xl-8 middle_menu">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Portfolio</li>
+            <li>Team</li>
+            <li>
+              Drop Down
+              <ul>
+                <li>Drop Down 1</li>
+                <li>
+                  Deep Drop Down
+                  <ul>
+                    <li>Deep Drop Down 1</li>
+                    <li>Deep Drop Down 2</li>
+                    <li>Deep Drop Down 3</li>
+                    <li>Deep Drop Down 4</li>
+                    <li>Deep Drop Down 5</li>
+                  </ul>
+                </li>
+                <li>Drop Down 2</li>
+                <li>Drop Down 3</li>
+                <li>Drop Down 4</li>
+              </ul>
+            </li>
+            <li>Contact</li>
+          </ul>
+
+          <!-- <li><a href="">Home</a></li>
+     <li><a href="">About</a></li>
+     <li><a href="">Services</a></li>
+     <li><a href="">Portfolio</a></li>
+     <li><a href="">Team</a></li>
+     <li>
+       <a href="">Drop Down <i class="fa fa-caret-down"></i> </a>
+       <ul>
+         <li><a href="">Drop Down1</a></li>
+         <li>
+           <a href="">Deep Drop Down <i class="fa fa-caret-right"></i></a>
+           <ul>
+             <li><a href="">Deep Drop Down1</a></li>
+             <li><a href="">Deep Drop Down2</a></li>
+             <li><a href="">Deep Drop Down3</a></li>
+             <li><a href="">Deep Drop Down4</a></li>
+             <li><a href="">Deep Drop Down5</a></li>
+           </ul>
+         </li>
+         <li><a href="">Drop Down2</a></li>
+         <li><a href="">Drop Down3</a></li>
+         <li><a href="">Drop Down4</a></li>
+       </ul>
+     </li>
+
+     <li><a href="">Contact</a></li> -->
+        </div>
+
+        <div class="col-xl-3 right">
+          <button class="btn">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<style>
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar .left span {
+    color: #ffc451;
+  }
+
+  .navbar .middle_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar .middle_menu ul {
+    list-style: none;
+    margin-top: 2%;
+    margin-left: -50px;
+  }
+  .navbar .middle_menu ul li {
+    width: 80px;
+    bottom: 1px solid #000;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .navbar .middle_menu ul li:hover {
+    /* background-color: crimson; */
+  }
+
+  .navbar .middle_menu ul ul {
+    display: none;
+  }
+  .navbar .middle_menu ul li:hover > ul {
+    display: block;
+  }
+
+  .navbar .middle_menu ul ul ul {
+    margin-left: 170px;
+    top: 0;
+    position: absolute;
+  }
+
+  /* .navbar .middle_menu ul {
+  margin: 0;
+  padding: 0;
+  float: bottom;
+  margin-right: 30px;
+}
+
+.navbar .middle_menu ul li {
+  background-color: #2c3e50;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .middle_menu ul li a {
+  display: block;
+  padding: 0 15px;
+  color: white;
+  text-decoration: none;
+  line-height: 60px;
+  font-size: 20px;
+}
+.navbar .middle_menu ul li a :hover {
+  background-color: #243342;
+}
+.navbar .middle_menu ul ul {
+  position: absolute;
+  top: 60px;
+  display: none;
+}
+
+.navbar .middle_menu ul li:hover > ul {
+  display: block;
+}
+
+.navbar .middle_menu ul ul li {
+  width: 50px;
+  float: right;
+  display: list-item;
+  position: relative;
+}
+
+.navbar .middle_menu ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 150px;
+} */
+
+  .head {
+  }
+  .head h1 {
+    font-size: 56px;
+    color: #fff;
+    font-family: "Poppins" sans-serif;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    margin-top: 250px;
+  }
+  .head p {
+    font-family: "Raleway", sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 10px 0 0;
+    text-align: center;
+    font-size: 24px;
+  }
+</style>
